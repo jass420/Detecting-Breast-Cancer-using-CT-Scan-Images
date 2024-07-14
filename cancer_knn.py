@@ -8,7 +8,7 @@ import cv2
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.metrics import confusion_matrix, accuracy_score
 
-
+#A helper function is created to open, process and put the data into train_x and train_y
 def make_test_data(path):
         train_images = []
         train_labels = []
